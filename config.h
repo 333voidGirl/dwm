@@ -13,7 +13,7 @@ static const char dmenufont[]       = "Liberation Mono:pixelsize=12:antialias=tr
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#331133";
 static const char col_gray3[]       = "#bb74de";
-static const char col_gray4[]       = "#7e1172";
+static const char col_gray4[]       = "#ded3e6";
 static const char col_cyan[]        = "#f20587";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
