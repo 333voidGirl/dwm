@@ -10,10 +10,10 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Liberation Mono:pixelsize=12:antialias=true:autohint=true", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
 static const char dmenufont[]       = "Liberation Mono:pixelsize=12:antialias=true:autohint=true" ;
-static const char col_gray1[]       = "#222222";
+static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#331133";
 static const char col_gray3[]       = "#bb74de";
-static const char col_gray4[]       = "#ded3e6";
+static const char col_gray4[]       = "#000000";
 static const char col_cyan[]        = "#f20587";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
