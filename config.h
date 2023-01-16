@@ -13,7 +13,7 @@ static const char *fonts[]          = { "Liberation Mono:pixelsize=12:antialias=
 static const char dmenufont[]       = "Liberation Mono:pixelsize=12:antialias=true:autohint=true" ;
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#331133";
-static const char col_gray3[]       = "#bb74de";
+static const char col_gray3[]       = "#735a80";
 static const char col_gray4[]       = "#000000";
 static const char col_cyan[]        = "#f20587";
 static const char *colors[][3]      = {
@@ -64,7 +64,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
